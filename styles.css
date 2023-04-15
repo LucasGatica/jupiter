@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFA07A;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    width: 80%;
+    height: 40%;
+    max-width: 800px;
+}
+
+h1 {
+    color: #FF4500;
+    margin-bottom: 30px;
+}
+
+input, button {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #FF4500;
+    background-color: transparent;
+    color: #FF4500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #FF4500;
+    color: white;
+}
+
+#wordDisplay {
+    font-size: 2rem;
+    color: #FF4500;
+    margin-bottom: 20px;
+}
+
+#wordDisplay span {
+    color: red;
+}
+
+#wordCount {
+    color: #FF4500;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#speedSelect {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #FF4500;
+    background-color: transparent;
+    color: #FF4500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.textoPDF {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+    width: 50%;
+    font-size: 50px;
+    }
+    
+    .jupiter {
+    width: 50px;
+    margin-left: 10px;
+    }
+    
+    .nome {
+    display: flex;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #FFA07A;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        position: relative;
+        width: 80%;
+        height: 40%;
+        max-width: 800px;
+    }
+    
+    /* Estilos para dispositivos com largura de tela menor que 768px */
+    @media screen and (max-width: 767px) {
+        .content {
+            width: 90%;
+            height: 400px;
+        }
+    
+        .textoPDF {
+            font-size: 35px;
+        }
+    }
+    
+    h1 {
+        color: #FF4500;
+        margin-bottom: 30px;
+    }
+    input {
+        width: 50%;
+       
+    }
+
+    
+    

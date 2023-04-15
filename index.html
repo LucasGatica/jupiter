@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jupiter Reader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="nome">
+            <h1>Jupiter Reader</h1>
+            <img class="jupiter" src="124558.svg" alt="">
+        </div>
+        <input type="file" id="inputPDF" accept="application/pdf">
+        <button id="startButton">Começar</button>
+        <button id="pauseButton" style="display: none;">Pausar</button>
+        <button id="voltar">&lt;</button>
+        <button id="avancar">&gt;</button>
+
+        <select id="speedSelect">
+            <option value="60">60 palavras por minuto</option>
+            <option value="120">120 palavras por minuto</option>
+            <option value="180">180 palavras por minuto</option>
+            <option value="240">240 palavras por minuto</option>
+            <option value="300">300 palavras por minuto</option>
+            <option value="600">600 palavras por minuto</option>
+        </select>
+        <div id="wordDisplay"></div>
+        <div id="wordCount"></div>
+        <div id="redLetterContainer"></div>
+    </div>
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
